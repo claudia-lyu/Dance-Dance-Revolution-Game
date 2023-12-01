@@ -3,12 +3,10 @@ This is the python programing project for the 15-112 course
 
 * The name of the project is “EXO-Revolution”, which is an adaptation of “Dance Dance Revolution”. This is mainly designed for EXO-L, the fan of EXO. The game rule is, by pressing the keyboard, you have to hit the music note coherent to the music as precisely as you can. In addition to the basic game feature, you can also play games with EXO in the battle mode and then access detailed score information. 
 
-* How to run the project.
-  Before running the project, you need to download the folder called *TP*, which includes all needed files for the project. To run the project, simply run *EXO-Revo.py* which is inside the folder *TP*. 
+* Before running the project, you need to download the folder called *TP*, which includes all needed files for the project. To run the project, simply run *EXO-Revo.py* which is inside the folder *TP*. 
   The project uses beatmap which is generated from *beatLst.py*. This file is already imported in *EXO-Revo.py*, so just make sure you download *TP* folder to access all required files. 
 
-* Which libraries you're using that need to be installed.
-  You need to install aubio and pygame, which is used for onset detection for any given music and play music in Python. For the rest python-imported libraries or cmu_112_graphics.py used for this project, it’s already imported in *EXO-Revo.py* and included in the *TP* folder, so you don’t need to do anything else. 
+* You need to install aubio and pygame, which is used for onset detection for any given music and play music in Python. For the rest python-imported libraries or cmu_112_graphics.py used for this project, it’s already imported in *EXO-Revo.py* and included in the *TP* folder, so you don’t need to do anything else. 
   To install aubio, you can check the official website of aubio.
   To install pygame, you can check CMU 15-112 official website or the official website of pygame.
 
