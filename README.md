@@ -3,6 +3,8 @@ This is the python programing project for the 15-112 course
 
 * The name of the project is “EXO-Revolution”, which is an adaptation of “Dance Dance Revolution”. This is mainly designed for EXO-L, the fan of EXO. The game rule is, by pressing the keyboard, you have to hit the music note coherent to the music as precisely as you can. In addition to the basic game feature, you can also play games with EXO in the battle mode and then access detailed score information. 
 
+* You can see the game demo by clicking the link provided in *demo-video.txt*.
+  
 * To run the project, simply run *EXO-Revo.py*. The project uses beatmap which is generated from *beatLst.py*. This file is already imported in *EXO-Revo.py*
 
 * You need to install aubio and pygame, which is used for onset detection for any given music and play music in Python. For the rest python-imported libraries or cmu_112_graphics.py used for this project, it’s already imported in *EXO-Revo.py*, so you don’t need to do anything else. 
