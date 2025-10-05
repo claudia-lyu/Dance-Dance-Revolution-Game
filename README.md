@@ -22,7 +22,7 @@ It simulates the classic *Dance Dance Revolution* gameplay, using beat detection
 
 See the game in action!  
 Click below to watch my project presentation video:  
-👉 [Watch on YouTube](https://www.youtube.com/your-video-link)
+👉 [Watch on YouTube](https://www.youtube.com/watch?v=6afwCVpGm3I)
 
 This short demo walks through gameplay design, beat detection logic, and the overall development process.
 
