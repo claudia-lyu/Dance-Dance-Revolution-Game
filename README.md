@@ -1,35 +1,23 @@
-# Dance Dance Revolution Game
-This is the python programing project for the 15-112 course 
+# Dance Dance Revolution Game 🎶  
 
-* The name of the project is “EXO-Revolution”, which is an adaptation of “Dance Dance Revolution”. This is mainly designed for EXO-L, the fan of EXO. The game rule is, by pressing the keyboard, you have to hit the music note coherent to the music as precisely as you can. In addition to the basic game feature, you can also play games with EXO in the battle mode and then access detailed score information. 
+This is an interactive rhythm game developed in **Python** for Carnegie Mellon University’s *15-112 Fundamentals of Programming and Computer Science* course.  
+It simulates the classic *Dance Dance Revolution* gameplay, using beat detection and animation to create a responsive, rhythm-based experience.  
 
-* You can see the game demo by clicking the link provided in *demo-video.txt*.
-  
-* To run the project, simply run *EXO-Revo.py*. The project uses beatmap which is generated from *beatLst.py*. This file is already imported in *EXO-Revo.py*
+## 🕹️ Key Features
+- **Beat Detection System:** Automatically identifies musical beats to sync arrows with rhythm.  
+- **Dynamic Graphics:** Implemented with `tkinter` and the CMU Graphics library for real-time visual feedback.  
+- **Performance Scoring:** Tracks player accuracy and combo streaks to adjust difficulty dynamically.  
+- **Data Persistence:** Stores user scores in a local database for long-term tracking and replayability.  
 
-* You need to install aubio and pygame, which is used for onset detection for any given music and play music in Python. For the rest python-imported libraries or cmu_112_graphics.py used for this project, it’s already imported in *EXO-Revo.py*, so you don’t need to do anything else. 
-  To install aubio, you can check the official website of aubio.
-  To install pygame, you can check CMU 15-112 official website or the official website of pygame.
+## 🧰 Tools & Technologies
+- **Language:** Python  
+- **Libraries:** `tkinter`, `random`, `time`, `math`, `cmu_112_graphics`  
+- **Files:**  
+  - `EXO-Revo.py` – main game engine  
+  - `beatLst.py` – beat synchronization logic  
+  - `Design Proposal.pdf` – project design document  
+  - `demo-video.txt` – gameplay demo reference  
 
-* A list of any shortcut commands that exist. Shortcut commands can be used to demonstrate specific features by skipping forward in a game or loading sample data. 
-   * Select Your Song
-      * For example, copy and paste this song file name: Peter Pan.mp3
-      * Press e: back to main page
-      * Press l: see the song list and decide which song to play
-      * In this case, press 0 to choose the song called “Peter Pan”
-      * Press s: return to the page where you select the song
-      * Press e: back to main page
-   * Play Game 
-      * Piece introduction
-      * “Free-hit”: use mouse to hit (the white circle surrounded by a red rectangle)
-   * Multiplier: press the keyboard to hit (The red circle centered by the text ‘2X’)
-   * Normal piece: press the keyboard to hit [regular circle with color; the color of normal pieces may vary]
-   * Mouse Press: simply use mouse
-   * Key Press: there are 5 trackers at the bottom of the screen. From left to right, “q”, “w”, “e”, “o”, “p”. So press the piece falling to each tracker by the given key.
-   * After play game, press f: back to main page; and play again
-   * For any song, finish *intro* and *practice* first, then you can access *battle*
-     * Note: you must play the game instead of simply running the game and do nothing during the game. Otherwise, the fake game experience makes you unable to access detailed score information, since you didn’t play the game at all!
-   * History
-      * Press f: back to main page
-      * Click mouse to type in song file name, such as “Peter Pan.mp3”, and press l to access detailed information
-      Note: you must play the game instead of simply running the game and do nothing during the game. Otherwise, although you ‘finished’ intro, practice, battle and type in the correct file name, you still cannot access detailed score information, since you didn’t play the game at all!
+---
+
+📘 *This project reflects my passion for combining programming logic, music, and user interaction design to build engaging data-driven experiences.*
