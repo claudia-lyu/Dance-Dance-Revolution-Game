@@ -16,7 +16,15 @@ It simulates the classic *Dance Dance Revolution* gameplay, using beat detection
   - `EXO-Revo.py` – main game engine  
   - `beatLst.py` – beat synchronization logic  
   - `Design Proposal.pdf` – project design document  
-  - `demo-video.txt` – gameplay demo reference  
+  - `demo-video.txt` – gameplay demo reference
+    
+## 🎥 Demo Presentation
+
+See the game in action!  
+Click below to watch my project presentation video:  
+👉 [Watch on YouTube](https://www.youtube.com/your-video-link)
+
+This short demo walks through gameplay design, beat detection logic, and the overall development process.
 
 ---
 
